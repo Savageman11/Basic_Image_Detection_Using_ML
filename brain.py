@@ -1,7 +1,10 @@
 # %%
+
+# importing new libraries for better prediction of the images.
 from imageai.Prediction import ImagePrediction
 import os
 
+# Changing the execution path to the direcotry
 execution_path = os.getcwd()
 
 prediction = ImagePrediction()
